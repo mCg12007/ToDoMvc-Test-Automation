@@ -21,8 +21,8 @@ Feature: In order to remember the things I want to do, as a ToDo MVC user, I wan
       | item  |
       |pickup groceries|
 
-  @ToDoListActions
   #3
+  @ToDoListActions
   Scenario Outline: verify if numeric and special characters entered are stored in list
     Given user is on the To Do List home page
     When user enters <item> in To Do field
