@@ -93,7 +93,7 @@ import static utils.LoadProp.getProperty;
      }
 
      public boolean noItemsDisplayed(String toggleType) {
-        if(toggleType.equalsIgnoreCase("toggled")) {
+        if(toggleType.equalsIgnoreCase("untoggled")) {
             return !(driver.findElements(unToggledItem).size() > 0);
         }
         else{
